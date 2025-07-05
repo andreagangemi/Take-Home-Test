@@ -1,0 +1,14 @@
+Package: hello-dbgsym
+Package-Type: ddeb
+Source: hello
+Version: 2.10-3ubuntu1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 52
+Depends: hello (= 2.10-3ubuntu1)
+Section: debug
+Priority: optional
+Description: debug symbols for hello
+Build-Ids: a9f4240fcf8ca9634cf646bfba4a418e3216ca8b
+Original-Maintainer: Santiago Vila <sanvila@debian.org>

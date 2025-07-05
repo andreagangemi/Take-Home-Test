@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 05 Jul 2025 20:17:40 +0200
+Source: hello
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 2.10-3ubuntu1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Andrea Gangemi <andrea@satrapi>
+Changes:
+ hello (2.10-3ubuntu1) UNRELEASED; urgency=medium
+ .
+   * Added testing.sh which is executed by postinst
+Checksums-Sha1:
+ bfe95df75c25b96f87cd4df1ba6256e5b901899f 1290 hello_2.10-3ubuntu1.dsc
+ f7bebf6f9c62a2295e889f66e05ce9bfaed9ace3 725946 hello_2.10.orig.tar.gz
+ 9dc7a584db576910856ac7aa5cffbaeefe9cf427 819 hello_2.10.orig.tar.gz.asc
+ ff06c95e059ac07843a22130506bf5b8a1d9e80d 13504 hello_2.10-3ubuntu1.debian.tar.xz
+ cfbe8977f65e341f039e8f0def52e29e3a4c584a 6096 hello_2.10-3ubuntu1_source.buildinfo
+Checksums-Sha256:
+ f4aa7aeb6679cc3fdd0602fb975744da45e88740929253ad4cc0af96bbadfa85 1290 hello_2.10-3ubuntu1.dsc
+ 31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b 725946 hello_2.10.orig.tar.gz
+ 4ea69de913428a4034d30dcdcb34ab84f5c4a76acf9040f3091f0d3fac411b60 819 hello_2.10.orig.tar.gz.asc
+ f6620b3e70d1c9fbe3252728588df899767c0e52f9b04db12e3582d470d6001b 13504 hello_2.10-3ubuntu1.debian.tar.xz
+ 427426b9c10116b57095ee98e20cabc2bbe3b1fd887f7b5d81bb8f1f1107fde3 6096 hello_2.10-3ubuntu1_source.buildinfo
+Files:
+ af7a7fa09395c6cd5dd6b8fc23795c89 1290 devel optional hello_2.10-3ubuntu1.dsc
+ 6cd0ffea3884a4e79330338dcc2987d6 725946 devel optional hello_2.10.orig.tar.gz
+ e6074bb23a0f184e00fdfb5c546b3bc2 819 devel optional hello_2.10.orig.tar.gz.asc
+ bfd47aee78f531426d4d701f56a7f388 13504 devel optional hello_2.10-3ubuntu1.debian.tar.xz
+ 550f0d44c5451d7c481a90d7cb77ae1f 6096 devel optional hello_2.10-3ubuntu1_source.buildinfo
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
