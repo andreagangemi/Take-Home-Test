@@ -1,33 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
-Date: Sat, 05 Jul 2025 20:17:40 +0200
+Date: Sun, 06 Jul 2025 17:19:23 +0200
 Source: hello
 Built-For-Profiles: noudeb
 Architecture: source
 Version: 2.10-3ubuntu1
-Distribution: UNRELEASED
+Distribution: plucky
 Urgency: medium
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Changed-By: Andrea Gangemi <andrea@satrapi>
+Changed-By: Andrea Gangemi <andrea.gangemi@gmail.com>
 Changes:
- hello (2.10-3ubuntu1) UNRELEASED; urgency=medium
+ hello (2.10-3ubuntu1) plucky; urgency=medium
  .
-   * Added testing.sh which is executed by postinst
+   * fixed changelog
 Checksums-Sha1:
- bfe95df75c25b96f87cd4df1ba6256e5b901899f 1290 hello_2.10-3ubuntu1.dsc
+ 2ad588790a6b415c53b582e5e98bea3fac8bd495 2173 hello_2.10-3ubuntu1.dsc
  f7bebf6f9c62a2295e889f66e05ce9bfaed9ace3 725946 hello_2.10.orig.tar.gz
  9dc7a584db576910856ac7aa5cffbaeefe9cf427 819 hello_2.10.orig.tar.gz.asc
- ff06c95e059ac07843a22130506bf5b8a1d9e80d 13504 hello_2.10-3ubuntu1.debian.tar.xz
- cfbe8977f65e341f039e8f0def52e29e3a4c584a 6096 hello_2.10-3ubuntu1_source.buildinfo
+ 8ee7296f3b613aecabdc536a345cfbc6c2508c7c 16904 hello_2.10-3ubuntu1.debian.tar.xz
+ 34c433e231ef6c154ed7ea1b80b0e58f4b1fc456 6979 hello_2.10-3ubuntu1_source.buildinfo
 Checksums-Sha256:
- f4aa7aeb6679cc3fdd0602fb975744da45e88740929253ad4cc0af96bbadfa85 1290 hello_2.10-3ubuntu1.dsc
+ df1d71e4cadf5f4af9969c9d82a0ad2926d20c93bc13e297ceeb6637525236dd 2173 hello_2.10-3ubuntu1.dsc
  31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b 725946 hello_2.10.orig.tar.gz
  4ea69de913428a4034d30dcdcb34ab84f5c4a76acf9040f3091f0d3fac411b60 819 hello_2.10.orig.tar.gz.asc
- f6620b3e70d1c9fbe3252728588df899767c0e52f9b04db12e3582d470d6001b 13504 hello_2.10-3ubuntu1.debian.tar.xz
- 427426b9c10116b57095ee98e20cabc2bbe3b1fd887f7b5d81bb8f1f1107fde3 6096 hello_2.10-3ubuntu1_source.buildinfo
+ 833d899e53281ddc202ef22109a557a7fed84c086fa6115bee59fa063c8914ac 16904 hello_2.10-3ubuntu1.debian.tar.xz
+ efe7fd81bc9f0f31924d6f59d49c92846867e6bcfdaa333963a1e0a9c0021c97 6979 hello_2.10-3ubuntu1_source.buildinfo
 Files:
- af7a7fa09395c6cd5dd6b8fc23795c89 1290 devel optional hello_2.10-3ubuntu1.dsc
+ 1c1fd7c43a057b1e964dbf74657541e8 2173 devel optional hello_2.10-3ubuntu1.dsc
  6cd0ffea3884a4e79330338dcc2987d6 725946 devel optional hello_2.10.orig.tar.gz
  e6074bb23a0f184e00fdfb5c546b3bc2 819 devel optional hello_2.10.orig.tar.gz.asc
- bfd47aee78f531426d4d701f56a7f388 13504 devel optional hello_2.10-3ubuntu1.debian.tar.xz
- 550f0d44c5451d7c481a90d7cb77ae1f 6096 devel optional hello_2.10-3ubuntu1_source.buildinfo
+ 70914326d6afd9cd3990a938016549b7 16904 devel optional hello_2.10-3ubuntu1.debian.tar.xz
+ 93f6e3fdb789e07c230a488ec40020d7 6979 devel optional hello_2.10-3ubuntu1_source.buildinfo
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEXTeLpRLUz8pmlqxTxMvvNXwuFLUFAmhqmoQACgkQxMvvNXwu
+FLVgIg//Zg0Dd8m7HLgEUhj6akmdo5jNY8Vt4CfhPX3OxGmLb7L5fGkS0Yz5fYxI
+oQRV2W7m9N0izmqMHXUBhipRcvEZT3ntFpGGz9kSm1+rHKK6hfi8HCJUVQURp5G0
+TQx/+nGicr5TXnbgh9Q4iBRhu1RWMn52pbX50VdEtFsuQs7RGR1sJAmFOY7VeB57
+Hw5nEfGmAurHBts27krIW7t3CqDxNyw6TW/DqVxNqB+m01SPs68U2XR0fZ+X8VWd
+vtB5HgcFdb+/5O7P3erj30s9pay4zfAxkI9HMi2+kuPxf+PW/1Y5DXxOofq1M534
+Jj2qpz7OnnB371qhB99cwKKpcHPHsHVSpjP630tlQkCxLfRiDv9DnnQwJSdWrTuq
+xh/2Y8F6+wnz5DwoqlCp/3K3ZN8ojX87rDYlZzf3uM0QoZxn1VTD5vaowEdcUi7J
+Xwu9B8nKcSmojRmMtPxn1Lj+7KPj4zeHVO1fw6Usvy0E5QeOmhalXjWl2OADD3hO
+DzM9EZODYJ2CTfNt1cjGz7Bj5276HHI0Ovw0RKyBBqFGxKHUMJNVS92V4bXcvUMR
+LHgPe41+E5dzH23biu7NOT15N1VHOkdjyCQ8mQL1STwyoGaHTOm1xf9/hLZuZVfI
+zPEbxtPlNyNO44DOjLUDRd8wOwwYck5F2msVP5VUmzVmtDfHC1M=
+=wm4P
+-----END PGP SIGNATURE-----

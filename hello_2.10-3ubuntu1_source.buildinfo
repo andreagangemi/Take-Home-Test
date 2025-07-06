@@ -1,16 +1,19 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: hello
 Architecture: source
 Version: 2.10-3ubuntu1
 Checksums-Md5:
- af7a7fa09395c6cd5dd6b8fc23795c89 1290 hello_2.10-3ubuntu1.dsc
+ 1c1fd7c43a057b1e964dbf74657541e8 2173 hello_2.10-3ubuntu1.dsc
 Checksums-Sha1:
- bfe95df75c25b96f87cd4df1ba6256e5b901899f 1290 hello_2.10-3ubuntu1.dsc
+ 2ad588790a6b415c53b582e5e98bea3fac8bd495 2173 hello_2.10-3ubuntu1.dsc
 Checksums-Sha256:
- f4aa7aeb6679cc3fdd0602fb975744da45e88740929253ad4cc0af96bbadfa85 1290 hello_2.10-3ubuntu1.dsc
+ df1d71e4cadf5f4af9969c9d82a0ad2926d20c93bc13e297ceeb6637525236dd 2173 hello_2.10-3ubuntu1.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 05 Jul 2025 20:21:55 +0200
+Build-Date: Sun, 06 Jul 2025 17:47:05 +0200
 Installed-Build-Depends:
  autoconf (= 2.72-3ubuntu1),
  automake (= 1:1.17-3ubuntu1),
@@ -187,4 +190,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1751739460"
+ SOURCE_DATE_EPOCH="1751815163"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEXTeLpRLUz8pmlqxTxMvvNXwuFLUFAmhqmoQACgkQxMvvNXwu
+FLX4RQ//cGcl48zzLpItCNTJSGi8h0vhCNQkMBXaT7/xmrifH40EYmhEXBtEOb+g
+Zgd2HyLMT2GpYCagF7QS6EHUqJq+vJ7c83BV0CxFb49RAiC3TmF3Qgpi0vAcB/VS
+/m8unVN7ulrxOONfjPdqKX8Qt2P1WDidV6Yvb+Cj+/cgkaPP/GaPO8QmlyCTXMgF
+C9eOV8gIQJ/GyuZ4Poj2lPhZCTrBuRUEtFTrIS1Y9bc9eYy1nyEqd6ESoD3MGP3Y
+9eoyAgks+4B4oKifTuiwZTMyM449o53u0GL656EYI1rfgHacyEUey9ELbv9gtpFW
+YZtz9iVdnQzQtGj2aZ24Cp/YTCOigp98OmhUgYxjxXbBg809r52dQsQnvvlElV6k
+2Y0NG+N5NUaaCCgYzhT8FM99ZGnRJM/nixygoG3bOeODSceiUpiHc0RgPU/l/CUB
+BRj3ukfPgxewTkeqBoKhK3zspYQnXYsKBaXOInJD7kIe+hFCqJHhT9fU1QKi+fE3
+C+si/QxczPAktk3rKyBeSNfuzCYclbEBWTt0lEGUIjJnYj9pvV5di0vBIoupvuTK
+WehqXANUDQcxXTOeyN5BBV3uuXySI1JnVlcZRkzcMpRVqnJWCtxflIU20Owh72NP
+tn6WMSPAcy1tvnQhNJWUpkYC/Ld9FefbxS6Z4ShZUiYLuXzHoYQ=
+=vwWT
+-----END PGP SIGNATURE-----

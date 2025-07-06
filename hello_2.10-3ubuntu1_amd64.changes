@@ -1,36 +1,36 @@
 Format: 1.8
-Date: Sat, 05 Jul 2025 20:17:40 +0200
+Date: Sun, 06 Jul 2025 17:19:23 +0200
 Source: hello
 Binary: hello
 Built-For-Profiles: noudeb
 Architecture: source amd64
 Version: 2.10-3ubuntu1
-Distribution: UNRELEASED
+Distribution: oracular
 Urgency: medium
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Changed-By: Andrea Gangemi <andrea@satrapi>
+Changed-By: Andrea Gangemi <andrea.gangemi@gmail.com>
 Description:
  hello      - example package based on GNU hello
 Changes:
- hello (2.10-3ubuntu1) UNRELEASED; urgency=medium
+ hello (2.10-3ubuntu1) oracular; urgency=medium
  .
-   * Added testing.sh which is executed by postinst
+   * fixed changelog
 Checksums-Sha1:
- bfe95df75c25b96f87cd4df1ba6256e5b901899f 1290 hello_2.10-3ubuntu1.dsc
- ff06c95e059ac07843a22130506bf5b8a1d9e80d 13504 hello_2.10-3ubuntu1.debian.tar.xz
- 41c800eac9e73e5929077a5544f538f3242e7a91 26872 hello-dbgsym_2.10-3ubuntu1_amd64.ddeb
- 965f4914bb87861ec16b4cfb04c22e6ffda46249 6653 hello_2.10-3ubuntu1_amd64.buildinfo
- 93fcb97d144f3effe11209a7d23f3dd641f31f01 48982 hello_2.10-3ubuntu1_amd64.deb
+ 611b338342b23cdd1ba620307f229ce9de331e96 1290 hello_2.10-3ubuntu1.dsc
+ bb397a68fffab5bb82e5344e53774eb953011889 13644 hello_2.10-3ubuntu1.debian.tar.xz
+ de2a30c63f80c59cbaeb92525f6945930bbf3ef4 26874 hello-dbgsym_2.10-3ubuntu1_amd64.ddeb
+ 700517831f2f98a129c61c5bd5735dbac4d13019 6653 hello_2.10-3ubuntu1_amd64.buildinfo
+ 8374f66ff1be7fba36887468bc3455f59b304012 49006 hello_2.10-3ubuntu1_amd64.deb
 Checksums-Sha256:
- f4aa7aeb6679cc3fdd0602fb975744da45e88740929253ad4cc0af96bbadfa85 1290 hello_2.10-3ubuntu1.dsc
- f6620b3e70d1c9fbe3252728588df899767c0e52f9b04db12e3582d470d6001b 13504 hello_2.10-3ubuntu1.debian.tar.xz
- a16acaead55ec6706ad085ded28f7c5f24e5a200d274fcdf29ca6dc2e6842bc8 26872 hello-dbgsym_2.10-3ubuntu1_amd64.ddeb
- d894b001ffedc1d4148200c8e516477b311ef75351eea96d06e481670e0b77db 6653 hello_2.10-3ubuntu1_amd64.buildinfo
- 9d75d58360dea7869078d1d11efe05c5d7fe0006d1091872e32990d7ce8e7591 48982 hello_2.10-3ubuntu1_amd64.deb
+ 7de7700d58009df60e0ace79617cf3290dcfb8e1597421ccf851a22af9fa4904 1290 hello_2.10-3ubuntu1.dsc
+ 26a69067c1a9a914be2496db3a9b9647d6e59a65398f0508f31d490c0f778505 13644 hello_2.10-3ubuntu1.debian.tar.xz
+ 8e40334adff8f0a3b999603e97b545bff7a78dbca27783fae7a657b587dc5d61 26874 hello-dbgsym_2.10-3ubuntu1_amd64.ddeb
+ 4b67920d30d1005b9930ddf16443422d3d811c7d110a3d622e627cedeab699f1 6653 hello_2.10-3ubuntu1_amd64.buildinfo
+ 204d65fd19016cce29dc31314441e7f8a1d7e94196b6d749ff251e30692d0984 49006 hello_2.10-3ubuntu1_amd64.deb
 Files:
- af7a7fa09395c6cd5dd6b8fc23795c89 1290 devel optional hello_2.10-3ubuntu1.dsc
- bfd47aee78f531426d4d701f56a7f388 13504 devel optional hello_2.10-3ubuntu1.debian.tar.xz
- 5fb8eaacbd582153a739bcb6bb617fec 26872 debug optional hello-dbgsym_2.10-3ubuntu1_amd64.ddeb
- c8ed508370f1ebfa49b26371dcd4d51e 6653 devel optional hello_2.10-3ubuntu1_amd64.buildinfo
- 76186a3a293c15a7529dc255889b5766 48982 devel optional hello_2.10-3ubuntu1_amd64.deb
+ 709c3a8c97400cd96eb7c2e3df08a1b2 1290 devel optional hello_2.10-3ubuntu1.dsc
+ 041fc92e972aa523115275b11cc42aa1 13644 devel optional hello_2.10-3ubuntu1.debian.tar.xz
+ 312f5d2a5739701c4fdd5e89b3cc6c2e 26874 debug optional hello-dbgsym_2.10-3ubuntu1_amd64.ddeb
+ 91206ab9a2b7663cf526fae56cf57db7 6653 devel optional hello_2.10-3ubuntu1_amd64.buildinfo
+ 4105756382b2360368f0d96f1282a3e7 49006 devel optional hello_2.10-3ubuntu1_amd64.deb
 Original-Maintainer: Santiago Vila <sanvila@debian.org>

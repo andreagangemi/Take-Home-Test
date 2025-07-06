@@ -1,0 +1,63 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: info: source package hello
+dpkg-buildpackage: info: source version 2.10-3ubuntu1
+dpkg-buildpackage: info: source distribution plucky
+dpkg-buildpackage: info: source changed by Andrea Gangemi <andrea.gangemi@gmail.com>
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/home/andrea/andreagangemi_takehome/hello-2.10'
+[ ! -f Makefile ] || /usr/bin/make distclean
+make[1]: Leaving directory '/home/andrea/andreagangemi_takehome/hello-2.10'
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: verifying ./hello_2.10.orig.tar.gz.asc
+dpkg-source: info: building hello using existing ./hello_2.10.orig.tar.gz
+dpkg-source: info: building hello using existing ./hello_2.10.orig.tar.gz.asc
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: warning: ignoring deletion of file config.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file aclocal.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file configure, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file Makefile.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file INSTALL, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file po/Makefile.in.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/depcomp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/mdate-sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/missing, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/texinfo.tex, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/config.rpath, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/install-sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/compile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build-aux/test-driver, use --include-removal to override
+dpkg-source: info: building hello in hello_2.10-3ubuntu1.debian.tar.xz
+dpkg-source: info: building hello in hello_2.10-3ubuntu1.dsc
+ dpkg-genbuildinfo --build=source -O../hello_2.10-3ubuntu1_source.buildinfo
+dpkg-genbuildinfo: warning:     debian/changelog(l9): badly formatted heading line
+LINE: added testing.sh, modified postinst and install  * 
+dpkg-genbuildinfo: warning:     debian/changelog(l11): found trailer where expected start of change data
+LINE:  -- Andrea Gangemi <andrea.gangemi@gmail.com>  Sun, 06 Jul 2025 17:14:06 +0200
+ dpkg-genchanges -sa --build=source -O../hello_2.10-3ubuntu1_source.changes
+dpkg-genchanges: warning:     debian/changelog(l9): badly formatted heading line
+LINE: added testing.sh, modified postinst and install  * 
+dpkg-genchanges: warning:     debian/changelog(l11): found trailer where expected start of change data
+LINE:  -- Andrea Gangemi <andrea.gangemi@gmail.com>  Sun, 06 Jul 2025 17:14:06 +0200
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: source-only upload (original source is included)
+Now running lintian hello_2.10-3ubuntu1_source.changes ...
+W: hello source: maintainer-script-lacks-debhelper-token [debian/postinst]
+Finished running lintian.
+Now signing changes and any dsc files...
+long key IDs are discouraged; please use key fingerprints instead
+ signfile dsc hello_2.10-3ubuntu1.dsc 06B7343A214366CC
+
+ fixup_buildinfo hello_2.10-3ubuntu1.dsc hello_2.10-3ubuntu1_source.buildinfo
+ signfile buildinfo hello_2.10-3ubuntu1_source.buildinfo 06B7343A214366CC
+
+ fixup_changes dsc hello_2.10-3ubuntu1.dsc hello_2.10-3ubuntu1_source.changes
+ fixup_changes buildinfo hello_2.10-3ubuntu1_source.buildinfo hello_2.10-3ubuntu1_source.changes
+ signfile changes hello_2.10-3ubuntu1_source.changes 06B7343A214366CC
+
+Successfully signed dsc, buildinfo, changes files

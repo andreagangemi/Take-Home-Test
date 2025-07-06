@@ -1,8 +1,14 @@
-hello (2.10-3ubuntu1) UNRELEASED; urgency=medium
+hello (2.10-3ubuntu1) plucky; urgency=medium
 
-  * Added testing.sh which is executed by postinst
+  * fixed changelog
 
- -- Andrea Gangemi <andrea@satrapi>  Sat, 05 Jul 2025 20:17:40 +0200
+ -- Andrea Gangemi <andrea.gangemi@gmail.com>  Sun, 06 Jul 2025 17:19:23 +0200
+
+hello (2.10-3gangemi1) oracular; urgency=medium
+
+added testing.sh, modified postinst and install  * 
+
+ -- Andrea Gangemi <andrea.gangemi@gmail.com>  Sun, 06 Jul 2025 17:14:06 +0200
 
 hello (2.10-3build2) oracular; urgency=medium
 
